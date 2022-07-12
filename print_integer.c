@@ -7,7 +7,8 @@
  */
 int print_integer(va_list args)
 {
-	int count, n, div, num;
+	int count, n, div;
+	unsigned int num;
 
 	n = va_arg(args, int);
 	div = 1;
