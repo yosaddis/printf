@@ -30,7 +30,11 @@ int print_reversed(va_list);
 int rot13(va_list);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int unsigned_integer(va_list);
+=======
+int usinged_integer(va_list);
+>>>>>>> parent of 594f979... print unsigned int, octal, heexa and Hexa
 =======
 int usinged_integer(va_list);
 >>>>>>> parent of 594f979... print unsigned int, octal, heexa and Hexa
