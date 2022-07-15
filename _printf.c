@@ -16,12 +16,15 @@ int _printf(const char *format, ...)
 		{"d", print_integer},
 		{"i", print_integer},
 		{"b", print_binary},
+<<<<<<< HEAD
 		{"r", print_reversed},
 		{"R", rot13},
 		{"u", unsigned_integer},
 		{"o", print_octal},
 		{"x", print_hex},
 		{"X", print_heX},
+=======
+>>>>>>> parent of 594f979... print unsigned int, octal, heexa and Hexa
 		{NULL, NULL}
 	};
 

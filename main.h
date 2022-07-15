@@ -28,7 +28,11 @@ int print_number(va_list);
 int print_binary(va_list);
 int print_reversed(va_list);
 int rot13(va_list);
+<<<<<<< HEAD
 int unsigned_integer(va_list);
+=======
+int usinged_integer(va_list);
+>>>>>>> parent of 594f979... print unsigned int, octal, heexa and Hexa
 int print_octal(va_list list);
 int print_hex(va_list list);
 int print_hexX(va_list);
