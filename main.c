@@ -2,14 +2,18 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main (void)
+int main(void)
 {
-	int len, len2;
-	len = _printf("Let's try to printf a simple sentence.\n");
-	len2 = printf("Let's try to printf a simple sentence.\n");
-	printf("Length:[%d, %d]\n",len, len);
-	printf("Length:[%d, %i]\n",len2, len2);
-	_printf("%b\n", 98);
+	unsigned int ui = (unsigned int)INT_MAX + 1024;
 
+	_printf("Let's try to printf a simple sentence.\n");
+	printf("Let's try to printf a simple sentence.\n");
+	printf("octa:[%o]\n", ui);
+	_printf("octa:[%o]\n", ui);
+	printf("hexa [%x, %X]\n", ui, ui);
+	_printf("hexa [%x, %X]\n", ui, ui);
+	printf("unsigned [%u]\n", ui);
+	_printf("unsigned [%u]\n", ui);
+	_printf("%b\n", 98);
 	return (0);
 }

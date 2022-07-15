@@ -23,7 +23,7 @@ int print_integer(va_list args)
 		num = n;
 	for (; num / div > 9; )
 		div *= 10;
-	for (; div !=0 ; )
+	for (; div != 0;)
 	{
 		count += _putchar('0' + num / div);
 		num %= div;
